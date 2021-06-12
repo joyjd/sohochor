@@ -1,0 +1,22 @@
+.introCardHolder {
+  position: relative;
+  z-index: 1;
+}
+.upMargin_lg {
+  margin-top: -13rem;
+}
+.upMargin_md {
+  margin-top: -8rem;
+}
+.upMargin_sm {
+  margin-top: -6rem;
+}
+.upMargin_xs {
+  margin-top: -4rem;
+}
+
+.titleCard {
+  box-shadow: 0px -10px 10px #0000003b, 0px -10px 6px #0000003b;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}

@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+.box {
+  flex: 1;
+  //transform: skew(-25deg);
+  position: relative;
+  overflow: hidden;
+}
+.box:first-child {
+  margin-left: calc((100% / 5) / -2);
+}
+.box:last-child {
+  margin-right: calc((100% / 5) / -2);
+}
+
+.box:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -50%;
+  right: -50%;
+  background-image: var(--i);
+  background-position: center;
+}
+.skewVideo {
+  top: 0;
+  height: 100% !important;
+  width: auto;
+}

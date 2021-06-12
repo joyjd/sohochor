@@ -1,0 +1,48 @@
+.quote {
+  background: #ffffff;
+  position: relative;
+  z-index: 1;
+
+  &:after {
+    background: inherit;
+    content: "";
+    display: block;
+    height: 18%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    -webkit-backface-visibility: hidden; // for Chrome Windows
+  }
+  &:after {
+    bottom: 0;
+    transform: skewY(-4.5deg);
+    transform-origin: 100%;
+  }
+}
+
+.quoteImg {
+  background: #ffffff;
+  position: relative;
+  z-index: 1;
+
+  &:after {
+    background: inherit;
+    content: "";
+    display: block;
+    height: 30%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    -webkit-backface-visibility: hidden; // for Chrome Windows
+  }
+  &:after {
+    bottom: 0;
+    transform: skewY(-4.5deg);
+    transform-origin: 100%;
+  }
+}
+
+.relativeDiv {
+  position: relative;
+  z-index: 1;
+}
